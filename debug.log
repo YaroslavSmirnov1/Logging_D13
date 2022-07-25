@@ -1,0 +1,117 @@
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\models_tutor\mc_donalds\views.py", line 8, in index
+    return render(request, 'mc_donalds/product.html', context=product)
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: mc_donalds/product.html
+"GET / HTTP/1.1" 500 78707
+C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\models_tutor\mc_donalds\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\models_tutor\mc_donalds\views.py", line 8, in index
+    return render(request, 'mc_donalds/products.html', context=product)
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\template\engine.py", line 163, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\template\engine.py", line 145, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\template\base.py", line 199, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\template\base.py", line 508, in parse
+    raise self.error(token, e)
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\template\base.py", line 506, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\template\loader_tags.py", line 284, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\template\base.py", line 508, in parse
+    raise self.error(token, e)
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\template\base.py", line 506, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\template\loader_tags.py", line 222, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    self.unclosed_block_tag(parse_until)
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\template\base.py", line 574, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 4: 'block'. Looking for one of: endblock.
+"GET / HTTP/1.1" 500 149512
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\models_tutor\mc_donalds\views.py", line 8, in index
+    return render(request, 'mc_donalds/products.html', context=product)
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\template\backends\django.py", line 59, in render
+    context = make_context(context, request, autoescape=self.backend.engine.autoescape)
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\template\context.py", line 268, in make_context
+    raise TypeError('context must be a dict rather than %s.' % context.__class__.__name__)
+TypeError: context must be a dict rather than QuerySet.
+"GET / HTTP/1.1" 500 81396
+C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\models_tutor\mc_donalds\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 647
+C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\models_tutor\mc_donalds\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\models_tutor\mc_donalds\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\models_tutor\mc_donalds\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 647
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 647
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 647
+C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\models_tutor\models_tutor\settings.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 647
+2022-06-16 22:57:01,334 INFO Watching for file changes with StatReloader
+2022-06-16 22:57:08,355 INFO "GET / HTTP/1.1" 200 647
+2022-06-16 23:20:35,046 INFO C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\models_tutor\mc_donalds\views.py changed, reloading.
+2022-06-16 23:20:39,237 INFO Watching for file changes with StatReloader
+2022-06-16 23:20:57,806 ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\models_tutor\mc_donalds\views.py", line 9, in index
+    product = Products.objects.all()
+NameError: name 'Products' is not defined
+2022-06-16 23:20:57,806 ERROR "GET / HTTP/1.1" 500 62883
+2022-06-16 23:22:50,914 INFO C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\models_tutor\mc_donalds\views.py changed, reloading.
+2022-06-16 23:22:54,321 INFO Watching for file changes with StatReloader
+2022-06-16 23:23:06,132 INFO "GET / HTTP/1.1" 200 647
+2022-06-16 23:54:43,547 INFO Watching for file changes with StatReloader
+2022-06-16 23:54:53,747 INFO "GET / HTTP/1.1" 200 647

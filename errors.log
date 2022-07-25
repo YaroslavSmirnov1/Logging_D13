@@ -1,0 +1,64 @@
+2022-06-17 01:24:20,558 ERROR C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\utils\log.py (<class 'django.template.exceptions.TemplateDoesNotExist'>, TemplateDoesNotExist('mc_donalds/product.html'), <traceback object at 0x00000273F8636080>) Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\models_tutor\mc_donalds\views.py", line 10, in index
+    return render(request, 'mc_donalds/product.html', context={'product': product})
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: mc_donalds/product.html
+2022-06-17 01:24:20,574 ERROR C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\core\servers\basehttp.py None "GET / HTTP/1.1" 500 82285
+2022-06-17 22:36:38,239 ERROR C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\utils\log.py (<class 'django.template.exceptions.TemplateDoesNotExist'>, TemplateDoesNotExist('mc_donalds/product.html'), <traceback object at 0x00000210AC226780>) Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\models_tutor\mc_donalds\views.py", line 10, in index
+    return render(request, 'mc_donalds/product.html', context={'product': product})
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: mc_donalds/product.html
+2022-06-17 22:36:40,991 ERROR C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\core\servers\basehttp.py None "GET / HTTP/1.1" 500 83811
+2022-06-17 22:42:17,797 ERROR C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\utils\log.py (<class 'django.template.exceptions.TemplateDoesNotExist'>, TemplateDoesNotExist('mc_donalds/product.html'), <traceback object at 0x000001B1EA0B9F00>) Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\models_tutor\mc_donalds\views.py", line 10, in index
+    return render(request, 'mc_donalds/product.html', context={'product': product})
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: mc_donalds/product.html
+2022-06-17 22:42:17,828 ERROR C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\core\servers\basehttp.py None "GET / HTTP/1.1" 500 83812
+2022-06-17 22:44:13,008 ERROR C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\utils\log.py (<class 'django.template.exceptions.TemplateDoesNotExist'>, TemplateDoesNotExist('mc_donalds/product.html'), <traceback object at 0x0000012D4A741D80>) Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\models_tutor\mc_donalds\views.py", line 10, in index
+    return render(request, 'mc_donalds/product.html', context={'product': product})
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: mc_donalds/product.html
+2022-06-17 22:44:13,024 ERROR C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\core\servers\basehttp.py None "GET / HTTP/1.1" 500 83812

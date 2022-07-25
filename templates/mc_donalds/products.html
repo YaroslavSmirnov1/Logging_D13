@@ -1,0 +1,11 @@
+{% extends "mc_donalds/index.html" %}
+{% block title %}Index{% endblock title %}
+{% block header %}Главная страница{% endblock header %}
+{% block content %}
+<p>Категории продуктов</p>
+{% for i in product %}
+    <li>{{ i }}</li>
+    {% empty %}
+    <li>Продуктов нет</li>
+{% endfor %}
+{% endblock content %}

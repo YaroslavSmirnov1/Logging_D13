@@ -1,0 +1,99 @@
+2022-06-17 00:30:52,280 INFO autoreload Watching for file changes with StatReloader
+2022-06-17 00:32:05,885 INFO autoreload C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\models_tutor\models_tutor\settings.py changed, reloading.
+2022-06-17 00:32:09,670 INFO autoreload Watching for file changes with StatReloader
+2022-06-17 00:33:12,490 INFO basehttp "GET / HTTP/1.1" 200 647
+2022-06-17 00:38:04,051 INFO autoreload C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\models_tutor\models_tutor\settings.py changed, reloading.
+2022-06-17 00:38:08,478 INFO autoreload Watching for file changes with StatReloader
+2022-06-17 00:40:08,029 INFO autoreload C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\models_tutor\models_tutor\settings.py changed, reloading.
+2022-06-17 00:40:12,069 INFO autoreload Watching for file changes with StatReloader
+2022-06-17 00:43:19,830 INFO autoreload C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\models_tutor\models_tutor\settings.py changed, reloading.
+2022-06-17 00:43:23,184 INFO autoreload Watching for file changes with StatReloader
+2022-06-17 00:50:07,456 INFO autoreload Watching for file changes with StatReloader
+2022-06-17 00:52:33,356 INFO autoreload C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\models_tutor\models_tutor\settings.py changed, reloading.
+2022-06-17 00:52:36,783 INFO autoreload Watching for file changes with StatReloader
+2022-06-17 00:53:38,876 INFO autoreload C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\models_tutor\models_tutor\settings.py changed, reloading.
+2022-06-17 00:53:42,409 INFO autoreload Watching for file changes with StatReloader
+2022-06-17 00:55:15,436 INFO autoreload C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\models_tutor\mc_donalds\views.py changed, reloading.
+2022-06-17 00:55:18,620 INFO autoreload Watching for file changes with StatReloader
+2022-06-17 00:55:35,900 ERROR log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\models_tutor\mc_donalds\views.py", line 9, in index
+    product = Products.objects.all()
+NameError: name 'Products' is not defined
+2022-06-17 00:55:35,900 ERROR basehttp "GET / HTTP/1.1" 500 65438
+2022-06-17 00:57:44,217 INFO autoreload C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\models_tutor\models_tutor\settings.py changed, reloading.
+2022-06-17 00:57:47,844 INFO autoreload Watching for file changes with StatReloader
+2022-06-17 00:57:56,326 ERROR log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\models_tutor\mc_donalds\views.py", line 9, in index
+    product = Products.objects.all()
+NameError: name 'Products' is not defined
+2022-06-17 00:57:56,326 ERROR basehttp "GET / HTTP/1.1" 500 65427
+2022-06-17 01:02:50,783 INFO autoreload C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\models_tutor\models_tutor\settings.py changed, reloading.
+2022-06-17 01:02:54,020 INFO autoreload Watching for file changes with StatReloader
+2022-06-17 01:03:30,213 ERROR log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\models_tutor\mc_donalds\views.py", line 9, in index
+    product = Products.objects.all()
+NameError: name 'Products' is not defined
+2022-06-17 01:03:30,213 ERROR basehttp "GET / HTTP/1.1" 500 65502
+2022-06-17 01:05:57,404 INFO autoreload C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\models_tutor\models_tutor\settings.py changed, reloading.
+2022-06-17 01:06:00,888 INFO autoreload Watching for file changes with StatReloader
+2022-06-17 01:06:19,676 INFO autoreload C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\models_tutor\models_tutor\settings.py changed, reloading.
+2022-06-17 01:06:24,636 INFO autoreload Watching for file changes with StatReloader
+2022-06-17 01:06:27,565 ERROR log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\models_tutor\mc_donalds\views.py", line 9, in index
+    product = Products.objects.all()
+NameError: name 'Products' is not defined
+2022-06-17 01:06:27,565 ERROR basehttp "GET / HTTP/1.1" 500 65427
+2022-06-17 01:07:10,725 INFO autoreload C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\models_tutor\models_tutor\settings.py changed, reloading.
+2022-06-17 01:07:35,928 INFO autoreload Watching for file changes with StatReloader
+2022-06-17 01:07:44,579 ERROR log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\models_tutor\mc_donalds\views.py", line 9, in index
+    product = Products.objects.all()
+NameError: name 'Products' is not defined
+2022-06-17 01:07:44,584 ERROR basehttp "GET / HTTP/1.1" 500 65438
+2022-06-17 01:09:34,585 INFO autoreload C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\models_tutor\mc_donalds\views.py changed, reloading.
+2022-06-17 01:09:38,137 INFO autoreload Watching for file changes with StatReloader
+2022-06-17 01:10:33,054 INFO autoreload C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\models_tutor\models_tutor\settings.py changed, reloading.
+2022-06-17 01:10:36,490 INFO autoreload Watching for file changes with StatReloader
+2022-06-17 01:23:59,207 INFO autoreload Watching for file changes with StatReloader
+2022-06-17 01:24:20,558 ERROR log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\models_tutor\mc_donalds\views.py", line 10, in index
+    return render(request, 'mc_donalds/product.html', context={'product': product})
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: mc_donalds/product.html
+2022-06-17 01:25:57,330 INFO autoreload C:\Users\Сергей\PycharmProjects\module_d2\d2_mac\models_tutor\mc_donalds\views.py changed, reloading.
+2022-06-17 01:26:00,816 INFO autoreload Watching for file changes with StatReloader
